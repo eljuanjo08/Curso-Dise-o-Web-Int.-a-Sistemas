@@ -1,1 +1,1 @@
-# Curso-Diseno-Web-Int.-a-Sistemas
+# Curso Diseño Web-Int. a Sistemas
