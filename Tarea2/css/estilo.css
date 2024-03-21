@@ -1,0 +1,113 @@
+body {
+  font-family: "Istok Web", sans-serif;
+  background-color: #fcf7c5;
+}
+
+.container-fluid h1 {
+  color: #29221f;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.container-fluid h1 .texto_resaltar {
+  color: #fc354c;
+}
+
+.container-fluid .barra {
+  height: 200px;
+  border: 1px #29221f solid;
+}
+
+.container-fluid .rounded {
+  width: 300px;
+  border: 5px #13747d solid;
+}
+
+.h2_seccion {
+  font-weight: bolder;
+  border-bottom: 3px #0abfbc solid;
+  margin-bottom: 20px;
+}
+
+.texto_descripcion {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+h3 {
+  color: #13747d;
+  font-weight: bolder;
+}
+
+ul li {
+  font-size: 16px;
+  color: #fc354c;
+  font-weight: bold;
+}
+
+.red_social {
+  box-sizing: border-box;
+  padding: 10px 30px;
+  background-color: #13747d;
+  border-radius: 10px;
+  color: #fcf7c5;
+  text-decoration: none;
+  transition: ease-in-out;
+  transition-duration: .4s;
+}
+
+.red_social link {
+  color: #fcf7c5;
+}
+
+.facebook {
+  background-color: #0866ff;
+}
+
+.instagram {
+  background-color: #ff1358;
+}
+
+.twitter {
+  background-color: #000;
+}
+
+.linkedin {
+  background-color: #126bc4;
+}
+
+.github {
+  background-color: #0d1117;
+}
+
+.facebook:hover {
+  transition: ease-in-out;
+  transition-duration: .2s;
+  background: none;
+  outline: 3px #0866ff solid;
+  color: #0866ff;
+}
+
+.instagram:hover {
+  background: none;
+  outline: 3px #ff1358 solid;
+  color: #ff1358;
+}
+
+.twitter:hover {
+  background: none;
+  outline: 3px #000 solid;
+  color: #000;
+}
+
+.linkedin:hover {
+  background: none;
+  outline: 3px #126bc4 solid;
+  color: #126bc4;
+}
+
+.github:hover {
+  background: none;
+  outline: 3px #0d1117 solid;
+  color: #0d1117;
+}
