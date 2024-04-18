@@ -8,7 +8,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 90px;
+  gap: 110px;
 }
 
 #tecnologias h2 {
@@ -119,4 +119,10 @@
 
 .tec:hover .cpp4 {
   fill: #fff;
+}
+
+@media screen and (max-width: 750px) {
+  .tecnologias {
+    gap: 30px;
+  }
 }
